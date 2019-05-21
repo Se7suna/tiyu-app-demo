@@ -1,0 +1,52 @@
+@import './base.less';
+
+.page () {
+  padding-top: 46px;
+  padding-bottom: 50px;
+}
+.ellipsiss (@lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @lines;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}
+
+.ellipsis () {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.clearfix () {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.background (@url) {
+  background: url(@url) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.placeholder (@color, @font: 14px) {
+  &::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: @color;
+    font-size: @font;
+  }
+  &::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: @color;
+    font-size: @font;
+  }
+  &::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: @color;
+    font-size: @font;
+  }
+}
