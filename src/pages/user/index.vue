@@ -6,7 +6,7 @@
         <p class="info-set-left">点击认证</p>
         <van-icon name="setting-o" size="25px" color="#fff" />
       </div>
-      <img class="info-avatar" src="/static/img/avatar.jpg">
+      <img class="info-avatar" src="../../../static/img/avatar.jpg">
       <van-rate class="info-pain" v-model="value" allow-half void-icon="star" void-color="#eee" />
       <p class="info-name">张三</p>
       <p class="info-id">ID：2019031621</p>

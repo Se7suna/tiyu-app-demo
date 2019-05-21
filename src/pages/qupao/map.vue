@@ -114,7 +114,7 @@ export default {
   min-height: 100%;
   padding-top: 30px;
   padding-bottom: 20px;
-  .background("/static/img/map.png");
+  .background("/app/static/img/map.png");
   .head {
     width: 90%;
     display: flex;

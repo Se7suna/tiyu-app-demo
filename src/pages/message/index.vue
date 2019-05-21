@@ -4,7 +4,7 @@
     <ul class="msg">
       <li class="msg-item">
         <div class="msg-item-img">
-          <img class="img" src="/static/img/tz.png">
+          <img class="img" src="../../../static/img/tz.png">
         </div>
         <div class="msg-item-text">
           <div class="up">
@@ -16,7 +16,7 @@
       </li>
       <li class="msg-item">
         <div class="msg-item-img">
-          <img class="img" src="/static/img/dz.png">
+          <img class="img" src="../../../static/img/dz.png">
         </div>
         <div class="msg-item-text">
           <div class="up">
@@ -28,7 +28,7 @@
       </li>
       <li class="msg-item">
         <div class="msg-item-img">
-          <img class="img" src="/static/img/xx.png">
+          <img class="img" src="../../../static/img/xx.png">
         </div>
         <div class="msg-item-text">
           <div class="up">
@@ -39,7 +39,7 @@
         </div>
       </li>
       <li class="msg-item">
-        <img class="msg-item-img" src="/static/img/head2.jpg">
+        <img class="msg-item-img" src="../../../static/img/head2.jpg">
         <div class="msg-item-text">
           <div class="up">
             <p class="up-name">刘明</p>
