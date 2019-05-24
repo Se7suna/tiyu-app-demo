@@ -22,6 +22,15 @@
           <p class="text">本周运动排名</p>
         </div>
       </li>
+      <li class="set-item" @click="$router.push({name: 'week'})">
+        <div class="set-item-img">
+          <van-icon name="discount" size="20px" color="#fff" />
+        </div>
+        <div class="set-item-text">
+          <p class="name">每周任务</p>
+          <p class="text">查看任务进度</p>
+        </div>
+      </li>
       <li class="set-item">
         <div class="set-item-img">
           <van-icon name="orders-o" size="20px" color="#fff" />
@@ -38,15 +47,6 @@
         <div class="set-item-text">
           <p class="name">数据分析</p>
           <p class="text">分析跑步数据</p>
-        </div>
-      </li>
-      <li class="set-item">
-        <div class="set-item-img">
-          <van-icon name="add-o" size="20px" color="#fff" />
-        </div>
-        <div class="set-item-text">
-          <p class="name">更多功能</p>
-          <p class="text">正在开发中</p>
         </div>
       </li>
     </ul>

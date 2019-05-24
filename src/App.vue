@@ -38,4 +38,10 @@ body,
   color: @text-color;
   background-color: #fff;
 }
+.qupaoPage {
+  .van-tabs__content,
+  .box-tab {
+    height: 100%;
+  }
+}
 </style>

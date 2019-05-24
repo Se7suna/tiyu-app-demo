@@ -7,6 +7,7 @@ import map from '@/pages/qupao/map'
 import result from '@/pages/qupao/result'
 import message from '@/pages/message/index'
 import user from '@/pages/user/index'
+import week from '@/pages/user/week'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/user',
       name: 'user',
       component: user
+    },
+    {
+      path: '/user/week',
+      name: 'week',
+      component: week
     }
   ]
 })
