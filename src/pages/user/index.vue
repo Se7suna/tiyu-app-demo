@@ -36,7 +36,7 @@
           <van-icon name="orders-o" size="20px" color="#fff" />
         </div>
         <div class="set-item-text">
-          <p class="name">跑步记录</p>
+          <p class="name">运动记录</p>
           <p class="text">0次运动</p>
         </div>
       </li>
@@ -46,7 +46,7 @@
         </div>
         <div class="set-item-text">
           <p class="name">数据分析</p>
-          <p class="text">分析跑步数据</p>
+          <p class="text">分析运动数据</p>
         </div>
       </li>
     </ul>
