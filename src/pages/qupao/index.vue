@@ -1,6 +1,6 @@
 <template>
   <div class="qupaoPage">
-    <van-nav-bar title="趣跑" fixed />
+    <van-nav-bar title="趣动" fixed />
     <van-tabs v-model="active" class="box" color="#fb6522">
       <van-tab title="跑步" class="box-tab">
         <p class="box-tab-title">今日跑步任务：5km</p>
@@ -9,7 +9,7 @@
           <p class="long">0.0</p>
           <p class="num">跑步次数：0</p>
         </div>
-        <a class="box-tab-btn" @click="$router.push({name: 'count'})">开始趣跑</a>
+        <a class="box-tab-btn" @click="$router.push({name: 'count'})">开始趣动</a>
         <ul class="box-tab-list">
           <li class="item">
             <p class="item-time">一</p>
@@ -83,6 +83,46 @@
       </van-tab>
       <van-tab title="羽毛球" class="box-tab">
         <p class="box-tab-title">今日羽毛球训练：30min</p>
+        <div class="box-tab-content">
+          <p class="title">本次锻炼时长</p>
+          <p class="long">00:{{f|bu0}}:{{m|bu0}}</p>
+          <p class="num">连续锻炼天数：{{num}}</p>
+        </div>
+        <a class="box-tab-btn" @click="handleTime(true)" v-show="begin">开始计时</a>
+        <a class="box-tab-btn" @click="handleTime(false)" v-show="!begin">结束计时</a>
+        <ul class="box-tab-list">
+          <li class="item">
+            <p class="item-time">一</p>
+            <p class="item-num">0</p>
+          </li>
+          <li class="item">
+            <p class="item-time">二</p>
+            <p class="item-num">0</p>
+          </li>
+          <li class="item">
+            <p class="item-time">三</p>
+            <p class="item-num">0</p>
+          </li>
+          <li class="item">
+            <p class="item-time">四</p>
+            <p class="item-num">0</p>
+          </li>
+          <li class="item">
+            <p class="item-time">五</p>
+            <p class="item-num">0</p>
+          </li>
+          <li class="item">
+            <p class="item-time">六</p>
+            <p class="item-num">0</p>
+          </li>
+          <li class="item">
+            <p class="item-time">日</p>
+            <p class="item-num">0</p>
+          </li>
+        </ul>
+      </van-tab>
+      <van-tab title="游泳" class="box-tab">
+        <p class="box-tab-title">今日游泳时长：30min</p>
         <div class="box-tab-content">
           <p class="title">本次锻炼时长</p>
           <p class="long">00:{{f|bu0}}:{{m|bu0}}</p>

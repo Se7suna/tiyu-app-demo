@@ -1,6 +1,6 @@
 <template>
   <div class="indexPage">
-    <van-nav-bar title="趣跑APP" fixed />
+    <van-nav-bar title="趣动APP" fixed />
     <div class="avatar">
       <img class="avatar-img" src="../../static/img/avatar.jpg">
       <div class="avatar-text">
@@ -23,7 +23,7 @@
               <p class="head-text-info">系统消息</p>
             </div>
           </div>
-          <p class="text">欢迎各位同学使用趣跑APP。学习之余要记得坚持每日锻炼哦！</p>
+          <p class="text">欢迎各位同学使用趣动APP。学习之余要记得坚持每日锻炼哦！</p>
           <div class="msg">
             <p class="msg-time">2019-05-21 21:03</p>
             <p class="msg-read">

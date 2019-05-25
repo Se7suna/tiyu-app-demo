@@ -11,7 +11,7 @@
             <p class="up-name">系统通知</p>
             <p class="up-time">10分钟前</p>
           </div>
-          <p class="down">欢迎使用趣跑app~</p>
+          <p class="down">欢迎使用趣动app~</p>
         </div>
       </li>
       <li class="msg-item">
