@@ -1,7 +1,7 @@
 <template>
   <div class="userData">
     <van-nav-bar title="数据分析" fixed />
-    <img class="top" src="/static/img/top.png">
+    <img class="top" src="../../../static/img/top.png">
     <div class="most">
       <p class="most-title">单日最佳成绩</p>
       <div class="most-item">
