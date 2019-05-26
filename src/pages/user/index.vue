@@ -13,7 +13,7 @@
       <div class="info-white"></div>
     </div>
     <ul class="set">
-      <li class="set-item">
+      <li class="set-item" @click="$router.push({name: 'rank'})">
         <div class="set-item-img">
           <van-icon name="bar-chart-o" size="20px" color="#fff" />
         </div>
@@ -31,7 +31,7 @@
           <p class="text">查看任务进度</p>
         </div>
       </li>
-      <li class="set-item">
+      <li class="set-item" @click="$router.push({name: 'record'})">
         <div class="set-item-img">
           <van-icon name="orders-o" size="20px" color="#fff" />
         </div>
@@ -40,7 +40,7 @@
           <p class="text">0次运动</p>
         </div>
       </li>
-      <li class="set-item">
+      <li class="set-item" @click="$router.push({name: 'data'})">
         <div class="set-item-img">
           <van-icon name="aim" size="20px" color="#fff" />
         </div>

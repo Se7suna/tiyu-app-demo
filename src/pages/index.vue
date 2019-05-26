@@ -5,7 +5,7 @@
       <img class="avatar-img" src="../../static/img/avatar.jpg">
       <div class="avatar-text">
         <p class="avatar-text-name">张三同学：</p>
-        <p class="avatar-text-msg">今天的跑步任务还剩余<span style="font-size: 13px; margin: 0 2px;">60分钟</span>哦，加油！</p>
+        <p class="avatar-text-msg">今天的运动任务还剩余<span style="font-size: 13px; margin: 0 2px;">60分钟</span>哦，加油！</p>
       </div>
     </div>
     <div class="info">

@@ -3,11 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router.js'
-import Vant from 'vant'
+import vant from 'vant'
 import 'vant/lib/index.css'
 import 'animate.css'
 
-Vue.use(Vant)
+Vue.use(vant)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

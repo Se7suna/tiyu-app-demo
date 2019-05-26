@@ -3,7 +3,7 @@
     <router-view />
     <van-tabbar v-model="active" active-color="#fb6522" v-show="!['map', 'count', 'result'].includes($route.name)">
       <van-tabbar-item icon="home-o" @click="$router.push({name: 'index'})">首页</van-tabbar-item>
-      <van-tabbar-item icon="flag-o" @click="$router.push({name: 'qupao'})">趣动</van-tabbar-item>
+      <van-tabbar-item icon="flag-o" @click="$router.push({name: 'sport'})">趣动</van-tabbar-item>
       <van-tabbar-item icon="smile-comment-o" @click="$router.push({name: 'message'})">消息</van-tabbar-item>
       <van-tabbar-item icon="user-o" @click="$router.push({name: 'user'})">我的</van-tabbar-item>
     </van-tabbar>
@@ -38,7 +38,7 @@ body,
   color: @text-color;
   background-color: #fff;
 }
-.qupaoPage {
+.sportPage {
   .van-tabs__content,
   .box-tab {
     height: 100%;
