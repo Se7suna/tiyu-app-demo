@@ -1,6 +1,6 @@
 <template>
   <div class="userWeek">
-    <van-nav-bar title="本周任务" fixed />
+    <van-nav-bar title="本周任务" fixed left-text="返回" left-arrow @click-left="$router.go(-1)" />
     <img class="img" src="../../../static/img/info1.png">
     <div class="box">
       <p class="box-title">锻炼任务</p>

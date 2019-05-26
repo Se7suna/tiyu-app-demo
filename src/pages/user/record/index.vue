@@ -1,6 +1,6 @@
 <template>
   <div class="recordList">
-    <van-nav-bar title="运动记录" fixed />
+    <van-nav-bar title="运动记录" fixed left-text="返回" left-arrow @click-left="$router.go(-1)" />
     <van-collapse v-model="activeName" accordion>
       <van-collapse-item title="2019年3月" name="1">
         <div class="total">
@@ -227,7 +227,7 @@
                 <span class="time-num">19:32:17 - 20:01:15</span>
               </p>
             </div>
-            <p class="list-item-right">5/14</p>
+            <p class="list-item-right">5/28</p>
           </li>
         </ul>
       </van-collapse-item>

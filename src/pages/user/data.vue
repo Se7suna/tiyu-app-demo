@@ -1,6 +1,6 @@
 <template>
   <div class="userData">
-    <van-nav-bar title="数据分析" fixed />
+    <van-nav-bar title="数据分析" fixed left-text="返回" left-arrow @click-left="$router.go(-1)" />
     <img class="top" src="../../../static/img/top.png">
     <div class="most">
       <p class="most-title">单日最佳成绩</p>

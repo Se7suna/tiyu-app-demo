@@ -37,11 +37,16 @@ body,
   font-size: @font-size;
   color: @text-color;
   background-color: #fff;
-}
-.sportPage {
   .van-tabs__content,
   .box-tab {
     height: 100%;
+  }
+  .van-nav-bar .van-icon,
+  .van-nav-bar__text {
+    color: #666;
+  }
+  .van-dropdown-menu__title {
+    color: @theme;
   }
 }
 </style>

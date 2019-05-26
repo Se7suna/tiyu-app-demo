@@ -1,6 +1,6 @@
 <template>
   <div class="userRank">
-    <van-nav-bar title="我的排行" fixed />
+    <van-nav-bar title="我的排行" fixed left-text="返回" left-arrow @click-left="$router.go(-1)" />
     <van-dropdown-menu active-color="#fb6522">
       <van-dropdown-item v-model="value1" :options="option1" />
       <van-dropdown-item v-model="value2" :options="option2" />
@@ -154,9 +154,6 @@ export default {
 @import "../../styles/index.less";
 .userRank {
   .page();
-  .van-dropdown-menu__title {
-    color: @theme;
-  }
   .list {
     background-color: @background-color;
   }
