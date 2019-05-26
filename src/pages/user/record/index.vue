@@ -27,7 +27,7 @@
         <ul class="list">
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/ymq.png">
+              <img class="img" src="../../../../static/img/ymq.png">
               <p class="num">
                 <span class="num-text">32</span>
                 <span class="num-unit">分钟</span>
@@ -41,7 +41,7 @@
           </li>
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/yy.png">
+              <img class="img" src="../../../../static/img/yy.png">
               <p class="num">
                 <span class="num-text">60</span>
                 <span class="num-unit">分钟</span>
@@ -55,7 +55,7 @@
           </li>
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/yy.png">
+              <img class="img" src="../../../../static/img/yy.png">
               <p class="num">
                 <span class="num-text">70</span>
                 <span class="num-unit">分钟</span>
@@ -94,7 +94,7 @@
         <ul class="list">
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/pb.png">
+              <img class="img" src="../../../../static/img/pb.png">
               <p class="num">
                 <span class="num-text">2.35</span>
                 <span class="num-unit">公里</span>
@@ -108,7 +108,7 @@
           </li>
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/lq.png">
+              <img class="img" src="../../../../static/img/lq.png">
               <p class="num">
                 <span class="num-text">33</span>
                 <span class="num-unit">分钟</span>
@@ -147,7 +147,7 @@
         <ul class="list">
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/pb.png">
+              <img class="img" src="../../../../static/img/pb.png">
               <p class="num">
                 <span class="num-text">2.35</span>
                 <span class="num-unit">公里</span>
@@ -161,7 +161,7 @@
           </li>
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/lq.png">
+              <img class="img" src="../../../../static/img/lq.png">
               <p class="num">
                 <span class="num-text">53</span>
                 <span class="num-unit">分钟</span>
@@ -175,7 +175,7 @@
           </li>
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/ymq.png">
+              <img class="img" src="../../../../static/img/ymq.png">
               <p class="num">
                 <span class="num-text">22</span>
                 <span class="num-unit">分钟</span>
@@ -189,7 +189,7 @@
           </li>
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/yy.png">
+              <img class="img" src="../../../../static/img/yy.png">
               <p class="num">
                 <span class="num-text">35</span>
                 <span class="num-unit">分钟</span>
@@ -203,7 +203,7 @@
           </li>
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/pb.png">
+              <img class="img" src="../../../../static/img/pb.png">
               <p class="num">
                 <span class="num-text">4.00</span>
                 <span class="num-unit">公里</span>
@@ -217,7 +217,7 @@
           </li>
           <li class="list-item">
             <div class="list-item-left">
-              <img class="img" src="/static/img/ymq.png">
+              <img class="img" src="../../../../static/img/ymq.png">
               <p class="num">
                 <span class="num-text">30</span>
                 <span class="num-unit">分钟</span>
